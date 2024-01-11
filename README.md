@@ -13,13 +13,19 @@ DR: Dynamic Rounting
 
 ### React Server Components
 
+Por defecto, todos son server components, es decir, componentes generados por el servidor (a menos que especifiquemos lo contrario).
+
+- Renderizado estático: Es la opción por defecto en Next. Pues, mejora el performance y reduce enormemente la cantidad de contenido enviado al cliente. Es decir, sólo se muestra el "query" del cliente en concreto, el resto del contenido no.
+- Fetch cache: Llamadas a Fetch, realizarán un caché de forma forzada por defecto a menos que se especifique lo contrario.
+- Evitar efectos: useEffect entre otros hooks que disparan acciones del lado del cliente, no se pueden usar en server components. Es necesario, especificar "use client" en el inicio del archivo componente.
+
 ### Client Components
 
 ### TurboPack
 
 ### Metadata
 
-### MetadataLayouts y Lauouts anidados
+### MetadataLayouts y Layouts anidados
 
 ### Next Link
 
