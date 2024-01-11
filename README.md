@@ -25,13 +25,20 @@ Por defecto, todos son server components, es decir, componentes generados por el
 
 ### Metadata
 
-### MetadataLayouts y Layouts anidados
+- MetadataLayouts
+- Layouts anidados
 
 ### Next Link
 
 ### usePathName Hook
 
 ### Nuevo sistema de rutas de Next
+
+### Despegar la app en Vercel
+
+### Generar una imagen en Docker siguiendo las practicas recomendadas por el Nextjs
+
+### Correr la app en Docker Desktop
 
 ```
 Objetivo: Crear una página estática que nos ayude a comprender las bases de Next.
