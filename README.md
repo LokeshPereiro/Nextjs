@@ -38,6 +38,10 @@ Por defecto, todos son server components, es decir, componentes generados por el
 
 ### Generar una imagen en Docker siguiendo las practicas recomendadas por el Nextjs
 
+```
+Par qué me sirve Docker? --> Resumen: Empaquedar la app en una una lista de producción y crear una imagen. Es decirl, hacer una copia de la app lista para ser ejecutado, no hay que hacer configuraciones extra ni nada. Ejemplo: como un CD de video juego.
+```
+
 ### Correr la app en Docker Desktop
 
 ```
